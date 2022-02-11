@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Primeiro projeto 2022 CodeDrops",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
   "author": "Doris Nunes",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
